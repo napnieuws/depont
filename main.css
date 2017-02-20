@@ -46,8 +46,8 @@ body {
 
 @font-face {
   font-family: 'ss-sb';
-  src: url("../fonts/ss-sb.eot");
-  src: url("../fonts/ss-sb.eot?#iefix") format("embedded-opentype"), url("../fonts/ss-sb.woff") format("woff"), url("../fonts/ss-sb.ttf") format("truetype");
+  src: url("fonts/ss-sb.eot");
+  src: url("fonts/ss-sb.eot?#iefix") format("embedded-opentype"), url("fonts/ss-sb.woff") format("woff"), url("fonts/ss-sb.ttf") format("truetype");
   font-weight: 600;
   font-style: normal; }
 
@@ -85,7 +85,7 @@ ul {
   margin-top: 20px; }
 
 .left-arrow {
-  background-image: url(../images/left.svg);
+  background-image: url(images/left.svg);
   width: 30px;
   margin-left: 0px;
   position: absolute;
@@ -93,10 +93,10 @@ ul {
   background-repeat: no-repeat;
   cursor: pointer; }
   .left-arrow:hover {
-    background-image: url(../images/lefthover.svg); }
+    background-image: url(images/lefthover.svg); }
 
 .right-arrow {
-  background-image: url(../images/right.svg);
+  background-image: url(images/right.svg);
   width: 30px;
   margin-left: 20px;
   position: absolute;
@@ -104,12 +104,12 @@ ul {
   background-repeat: no-repeat;
   cursor: pointer; }
   .right-arrow:hover {
-    background-image: url(../images/righthover.svg); }
+    background-image: url(images/righthover.svg); }
 
 .menucircle {
   max-width: 20px;
   height: 20px;
-  background-image: url("../images/circlejerk.svg");
+  background-image: url("images/circlejerk.svg");
   background-repeat: no-repeat;
   cursor: pointer;
   position: relative;
@@ -117,12 +117,12 @@ ul {
   .menucircle:hover {
     width: 20px;
     height: 20px;
-    background-image: url("../images/circlejerkhover.svg"); }
+    background-image: url("images/circlejerkhover.svg"); }
 
 .storycircle {
-  background-image: url("../images/circlefullhover.svg") !important; }
+  background-image: url("images/circlefullhover.svg") !important; }
   .storycircle:hover {
-    background-image: url("../images/circlefull.svg") !important; }
+    background-image: url("images/circlefull.svg") !important; }
 
 .menucircle div {
   font-family: 'ss-sb', sans-serif;
@@ -207,7 +207,7 @@ p {
   width: 258px;
   top: 0;
   left: 0;
-  background-image: url("../images/gradient.png");
+  background-image: url("images/gradient.png");
   position: absolute;
   background-repeat: repeat-y; }
 
