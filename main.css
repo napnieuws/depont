@@ -93,10 +93,10 @@ ul {
   background-repeat: no-repeat;
   cursor: pointer; }
   .left-arrow:hover {
-    background-image: url(images/lefthover.svg); }
+    background-image: url("images/lefthover.svg"); }
 
 .right-arrow {
-  background-image: url(images/right.svg);
+  background-image: url("images/right.svg");
   width: 30px;
   margin-left: 20px;
   position: absolute;
@@ -104,7 +104,7 @@ ul {
   background-repeat: no-repeat;
   cursor: pointer; }
   .right-arrow:hover {
-    background-image: url(images/righthover.svg); }
+    background-image: url("images/righthover.svg"); }
 
 .menucircle {
   max-width: 20px;
@@ -235,7 +235,6 @@ video {
   height: auto;
   z-index: 100;
   transform: translateX(-50%) translateY(-50%);
-  background: url("//demosthenes.info/assets/images/polina.jpg") no-repeat;
   background-size: cover;
   transition: 1s opacity; }
 
