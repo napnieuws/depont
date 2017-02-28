@@ -38,7 +38,7 @@ function startDocu() {
 
 function insertFirstStory(){
 	insertCharacter('hoofdstuk een', 'de pont');
-	screenFill.insertAdjacentHTML('beforeend', '<video class="video-een" id="bgvid" autoplay><source src="images/hoofdstuk_een_video_235.mp4" type="video/mp4"></video>');
+	screenFill.insertAdjacentHTML('beforeend', '<video class="video-een" id="bgvid" autoplay><source src="images/hoofdstuk_een_rm.mp4" type="video/mp4"></video>');
   document.getElementsByClassName('video-een')[0].addEventListener('ended',slideUpWithPause,false);
 }
 
@@ -87,7 +87,7 @@ function insertVerhuizer(){
 
 function insertFacilitair(){
 	insertCharacter('tijdstip 7:14', 'de facilitair medewerker');
-	screenFill.insertAdjacentHTML('beforeend', '<video class="video-een video-facilitair" id="bgvid" playsinline autoplay><source src="images/facilitair.mp4" type="video/mp4"></video>');
+	screenFill.insertAdjacentHTML('beforeend', '<video class="video-een video-facilitair" id="bgvid" playsinline autoplay><source src="images/deroker.mp4" type="video/mp4"></video>');
   document.getElementsByClassName('video-een')[0].addEventListener('ended',slideUpWithPause,false);
 }
 
@@ -113,6 +113,7 @@ function insertStratenmaker(){
 	insertCharacter('tijdstip 7:19', 'de stratenmaker');
 	insertQuote(1, '\“Ik ben bang dat het toch Wilders wordt voor mij dit jaar. Hij is er voor ons, weet je. Aan de andere kant, het is wel een racist. Ik sta er niet honderd procent achter, maar je moet wat. Heel Noord stemt Wilders, serieus. Vroeger was dat de PvdA. Maar ja, die hebben ook nooit wat gedaan.\”', '&mdash; de stratenmaker (32 jaar)');
 	screenFill.insertAdjacentHTML('beforeend', '<video class="video-een" id="bgvid" playsinline autoplay loop><source src="images/roker.mp4" type="video/mp4"></video>');
+	screenFill.insertAdjacentHTML('beforeend', '<audio src="images/brommers.mp3" autoplay></audio>');	
 	insertTimeSweeper(18);
 }
 
@@ -205,7 +206,7 @@ fullscreenButton.addEventListener("click", function(){
     document.body.requestFullscreen();
 	} else {
 		document.webkitExitFullscreen();
-		document.exitFullscreen();
+		document.body.exitFullscreen();
 	}
 });
 
